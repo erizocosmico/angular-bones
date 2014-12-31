@@ -1,0 +1,34 @@
+{
+    "name" : "BaseGulp",
+    "version" : "1.0.0",
+    "description" : "Base angular project with Gulp.js and ES6 capabilities",
+    "main" : "index.html",
+    "directories" : {
+        "test" : "tests"
+    },
+    "scripts" : {
+        "test" : "gulp test",
+        "postinstall" : "bower install"
+    },
+    "keywords" : [
+        "angular.js",
+        "gulp.js"
+    ],
+    "author" : "José M. Molina <hi@mvader.me>",
+    "license" : "MIT",
+    "devDependencies" : {
+        "bower" : "latest",
+        "gulp" : "latest",
+        "gulp-karma" : "latest",
+        "karma-jasmine" : "latest",
+        "phantomjs": "latest",
+        "karma-phantomjs-launcher" : "latest",
+        "gulp-less" : "latest",
+        "gulp-minify-css" : "latest",
+        "gulp-concat" : "latest",
+        "gulp-uglify" : "latest",
+        "gulp-esnext" : "latest",
+        "karma-spec-reporter": "latest",
+        "gulp-angular-templates": "latest"
+    }
+}
